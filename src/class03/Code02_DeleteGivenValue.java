@@ -1,5 +1,9 @@
 package class03;
 
+/**
+ * 链表题：删除链表中所有匹配某值的元素
+ * https://leetcode.com/problems/remove-linked-list-elements/description/
+ */
 public class Code02_DeleteGivenValue {
 
 	public static class Node {

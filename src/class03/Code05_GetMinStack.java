@@ -2,6 +2,11 @@ package class03;
 
 import java.util.Stack;
 
+/**
+ * 弹出的同时获取当前栈列最小值
+ * 思路：维护一个最小值的栈，进行平行压入/弹出。
+ * （如果加入的数小于栈顶，那么最小队列栈压入栈顶，反之压入新值）
+ */
 public class Code05_GetMinStack {
 
 	public static class MyStack1 {

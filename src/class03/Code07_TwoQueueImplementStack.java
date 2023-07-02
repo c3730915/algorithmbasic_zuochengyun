@@ -4,6 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ * 两个队列实现栈
+ * 思路：两个队列来回倒数据，每一次都需要进行倒数据操作，无优化空间
+ */
 public class Code07_TwoQueueImplementStack {
 
 	public static class TwoQueueStack<T> {

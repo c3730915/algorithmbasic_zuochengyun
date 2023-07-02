@@ -2,6 +2,9 @@ package class03;
 
 import java.util.Stack;
 
+/**
+ * 用两个栈实现队列，思路：如果pop栈为空，那么就进行导数据操作。弹出的永远是pop栈里的内容
+ */
 public class Code06_TwoStacksImplementQueue {
 
 	public static class TwoStacksQueue {
